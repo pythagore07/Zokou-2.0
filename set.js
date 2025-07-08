@@ -7,16 +7,16 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'zokk',
+module.exports = { session: process.env.ZOKOU-MD-WHATSAPP-BOT=>2086e248e9 || 'zokk',
      ETAT:process.env.ETAT,
     PREFIXE: process.env.PREFIXE,
     NOM_OWNER: process.env.NOM_OWNER || "Zokou-Md",
-    NUMERO_OWNER : process.env.NUMERO_OWNER,              
-    LECTURE_AUTO_STATUS: process.env.LECTURE_AUTO_STATUS || "non",
-    TELECHARGER_AUTO_STATUS: process.env.TELECHARGER_AUTO_STATUS || 'non',
-    MODE: process.env.MODE_PUBLIC,
+    NUMERO_OWNER : process.env.2250704034432,              
+    LECTURE_AUTO_STATUS: process.env.LECTURE_AUTO_STATUS || "oui",
+    TELECHARGER_AUTO_STATUS: process.env.TELECHARGER_AUTO_STATUS || 'oui',
+    MODE: process.env.MODE_Privé,
     PM_PERMIT: process.env.PM_PERMIT || 'non',
-    BOT : process.env.NOM_BOT || 'Zokou_MD',
+    BOT : process.env.pythagore 07|| 'Zokou_MD',
     URL : process.env.LIENS_MENU || 'https://static.animecorner.me/2023/08/op2.jpg',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
